@@ -1,0 +1,543 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: SPOT - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+ 
+/* FONTS */
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i);
+/* OVERALL ASPECT */
+
+body {
+  background-color: #f9f9f9;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #333;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla', sans-serif;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #51acc7;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #51acc7;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #fff;
+	border-color: #fff;
+	border-bottom: 1px solid #F9F9F9;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #333;
+}
+
+ .navbar-inverse .navbar-nav > li > a {
+ 	color: #666;
+ }
+
+  .navbar-inverse .navbar-nav > li > a:hover {
+ 	color: #333;
+ }
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bold;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand i {
+	color: #999;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+/*LATEST PROJECTS*/
+.latest-mobile {
+	width:250px;
+	margin:auto;
+}
+
+.latest-mobile a:hover {
+	opacity:0.9;
+}
+
+.latest-web {
+	width:100%;
+	margin:auto;
+}
+
+.latest-web a:hover {
+	opacity:0.9;
+}
+
+.projects {
+	width:100%;
+}
+
+.projects img {
+	max-width:160px;
+	width:100%;
+}
+ 
+.projects a:hover {
+	opacity:0.5;
+}
+
+.firstcharacter {
+	float: left;
+	color: #999;
+	font-size: 75px;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+ 
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../img/background.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 425px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media screen and (max-width: 604px) {
+  #headerwrap { min-height: 525px; }
+}
+
+@media screen and (max-width: 604px) { 
+  #headerwrap h2 { font-size: 33px !important; }
+}
+
+#headerwrap h1 {
+	margin-top: 100px;
+	color: black;
+	font-size: 70px;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#headerwrap span {
+	color:black;
+	font-size: 21px;
+}
+
+/* Dark Grey Wrap */
+#dg {
+	background: #f1f1f1;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-weight: bold;
+}
+
+/* White */
+#wht {
+	background: #fff;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+
+/* Light Grey */
+#lg {
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#lg h4 {
+	font-weight: bold;
+}
+
+
+/* Red Wrap */
+#r {
+	background: #999;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#r h4 {
+	color: white;
+	font-weight: bold;
+}
+
+#r p {
+	color: white;
+}
+
+/* Blue Wrap */
+
+#blue {
+	background: #5bc0de;
+	padding: 60px 0px;
+}
+
+#blue h2 {
+	color: white;
+}
+
+#blue h3 {
+	color: white;
+}
+
+#blue h4 {
+	color: white;
+	font-weight: bold;
+}
+
+#blue p {
+	color: white;
+}
+
+/* Footer Wrap */
+#f {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	color: #999;
+}
+
+#f i {
+	color: #666;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+#f i:hover {
+	color: #aaa;
+}
+
+#f a {
+	color: #999;
+}
+
+#f a:hover {
+	color: #aaa;
+}
+
+#f ul {
+	padding: 0px;
+}
+
+#f li {
+	list-style: none;
+}
+
+#f hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #444;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/****** SECTIONS *****/
+
+.w {
+	/* padding-top: 70px; */
+}
+
+.w h4 {
+	font-weight: bold;
+}
+
+.w i {
+	color: #5bc0de;
+	font-size: 30px;
+}
+
+.w ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.w li { 
+    padding-left: 1em; 
+    text-indent: -.6em;
+}
+
+.w li:before {
+    content: "• ";
+}
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 0px;
+}
+
+.wb h4 {
+	font-weight: bold;
+}
+
+.desc {
+	padding-top: 80px;
+}
+
+.desc h4 {
+	font-weight: bold;
+}
+
+.desc i {
+	color: #999;
+	font-size: 12px;
+	padding: 5px;
+}
+
+/***** MODAL CONTACT *****/
+.modal-content {
+	border-radius: 0px;
+
+}
+
+.modal-header {
+	background: #fff;
+	color: white;
+}
+
+.modal-header h4 {
+	font-weight: bold;
+}
+
+.modal-body {
+	background: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+
+.modal-footer {
+	background: #fff;
+	margin-top: 0px; 
+}
+
+.modal a:hover {
+	color:#333333;
+	text-decoration:none;
+}
+
+.modal i {
+	font-size: 16px;
+	padding-right: 10px;
+}
+
+/* ==========================================================================
+   Pricing Tables
+   ========================================================================== */
+   
+.pricing-option {
+    padding-bottom: 40px;
+}
+
+.pricing-option .pricing-top {
+    position: relative;
+    background: #222;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+    padding: 40px 20px 30px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pricing-option .pricing-top .special-label {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1abc9c;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.special .pricing-top {
+    background: black;
+}
+
+.pricing-option .pricing-edition {
+    text-transform: uppercase;
+    display: block;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+.pricing-option .price {
+    display: inline-block;
+    position: relative;
+}
+
+.pricing-option .price sup {
+    position: absolute;
+    top: 50px;
+    left: -10px;
+    font-size: 24px;
+}
+
+.pricing-option .price .price-amount {
+    font-size: 108px;
+    letter-spacing: -4px;
+}
+
+.pricing-option .price small {
+    position: relative;
+    left: -10px;
+    font-size: 18px;
+}
+
+.pricing-option ul {
+    list-style: none;
+    margin: 0;
+    background: #eee;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.pricing-option ul li {
+    border-bottom: solid 1px #e1e1e1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pricing-option .pricing-signup {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    color: white;
+    background: #1abc9c;
+}
+
+.pricing-option .pricing-signup:hover {
+    background: #999;
+}
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  #hr { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 991px) {
+  #hr { display: none; }   /* hide it elsewhere */
+}
+
+.logo {
+	height: 50px;
+	padding-top: 10px;
+	margin-left: 15px;
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.logo a {
+	color: #333;
+}
+
+.logo-footer {
+	height: 40px;
+	padding-top: 5px;
+	/* color: #fff; */ 
+	font-size: 20px;
+	font-weight: bold;
+}
